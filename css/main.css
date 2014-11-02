@@ -1,0 +1,35 @@
+
+#game-board img {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    border: 2px solid #282828;
+    border-radius: 10px;
+}
+
+body {
+ background-color: #282828;
+ color: white;
+;
+}
+
+section p, button {
+    display: inline;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+#winner {
+    display: none;
+}
